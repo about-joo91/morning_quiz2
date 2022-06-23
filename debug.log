@@ -1,0 +1,532 @@
+2022-06-21 15:37:49,598 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 15:37:49,608 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 15:38:03,077 DEBUG (0.016) SELECT (1) AS "a" FROM "items" INNER JOIN "categories" ON ("items"."category_id" = "categories"."id") WHERE "categories"."name" = 'appliance' LIMIT 1; args=('appliance',); alias=default
+2022-06-21 15:38:03,079 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" INNER JOIN "categories" ON ("items"."category_id" = "categories"."id") WHERE "categories"."name" = 'appliance'; args=('appliance',); alias=default
+2022-06-21 15:38:03,081 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 15:38:03,084 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 15:39:21,841 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 15:39:21,846 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 15:39:30,513 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 15:39:30,519 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 15:40:27,795 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 15:40:27,803 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 15:40:34,036 DEBUG (0.000) SELECT (1) AS "a" FROM "items" INNER JOIN "categories" ON ("items"."category_id" = "categories"."id") WHERE "categories"."name" = 'appliance' LIMIT 1; args=('appliance',); alias=default
+2022-06-21 15:40:34,038 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" INNER JOIN "categories" ON ("items"."category_id" = "categories"."id") WHERE "categories"."name" = 'appliance'; args=('appliance',); alias=default
+2022-06-21 15:40:34,039 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 15:40:34,042 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 15:41:19,669 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 15:41:19,675 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 15:42:04,721 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 15:42:04,726 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 15:42:15,542 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'appliance' LIMIT 21; args=('appliance',); alias=default
+2022-06-21 15:42:15,544 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (2); args=(2,); alias=default
+2022-06-21 15:43:07,829 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 15:43:07,834 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 15:43:24,924 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'appliance' LIMIT 21; args=('appliance',); alias=default
+2022-06-21 15:43:24,927 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (2); args=(2,); alias=default
+2022-06-21 15:43:30,476 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'appliance' LIMIT 21; args=('appliance',); alias=default
+2022-06-21 15:43:30,478 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (2); args=(2,); alias=default
+2022-06-21 15:43:38,348 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'food' LIMIT 21; args=('food',); alias=default
+2022-06-21 15:43:38,350 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (1); args=(1,); alias=default
+2022-06-21 19:12:28,309 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'food' LIMIT 21; args=('food',); alias=default
+2022-06-21 19:12:28,338 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (1); args=(1,); alias=default
+2022-06-21 19:17:22,988 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 19:17:23,003 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 19:21:00,661 DEBUG (0.000) INSERT INTO "items" ("name", "category_id", "image_url") SELECT 'item1', NULL, 'https://www.geeksforgeeks.org/' RETURNING "items"."id"; args=('item1', None, 'https://www.geeksforgeeks.org/'); alias=default
+2022-06-21 19:21:00,704 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" LIMIT 21; args=(); alias=default
+2022-06-21 19:21:00,705 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" LIMIT 21; args=(); alias=default
+2022-06-21 19:24:51,133 DEBUG (0.000) INSERT INTO "items" ("name", "category_id", "image_url") SELECT 'item1', NULL, 'https://www.geeksforgeeks.org/' RETURNING "items"."id"; args=('item1', None, 'https://www.geeksforgeeks.org/'); alias=default
+2022-06-21 19:24:51,168 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" LIMIT 21; args=(); alias=default
+2022-06-21 19:24:51,170 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" LIMIT 21; args=(); alias=default
+2022-06-21 19:25:31,594 DEBUG (0.000) INSERT INTO "items" ("name", "category_id", "image_url") SELECT 'item1', NULL, 'https://www.geeksforgeeks.org/' RETURNING "items"."id"; args=('item1', None, 'https://www.geeksforgeeks.org/'); alias=default
+2022-06-21 19:25:31,643 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" LIMIT 21; args=(); alias=default
+2022-06-21 19:25:31,646 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" LIMIT 21; args=(); alias=default
+2022-06-21 19:27:38,152 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 19:27:38,157 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 19:27:40,070 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'food' LIMIT 21; args=('food',); alias=default
+2022-06-21 19:27:40,073 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (1); args=(1,); alias=default
+2022-06-21 19:27:55,633 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 19:27:55,637 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 19:28:00,583 DEBUG (0.000) INSERT INTO "items" ("name", "category_id", "image_url") SELECT 'item1', NULL, 'https://www.geeksforgeeks.org/' RETURNING "items"."id"; args=('item1', None, 'https://www.geeksforgeeks.org/'); alias=default
+2022-06-21 19:28:00,618 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" LIMIT 21; args=(); alias=default
+2022-06-21 19:28:00,620 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" LIMIT 21; args=(); alias=default
+2022-06-21 19:28:13,123 DEBUG (0.016) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 19:28:13,128 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 21:05:40,652 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 21:05:40,661 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 21:21:56,580 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 21:21:56,589 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:22:11,054 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:22:11,059 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:22:14,111 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:22:14,115 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:24:04,624 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:24:04,629 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:27:14,778 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:27:14,783 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:28:00,401 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:28:00,405 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:28:40,206 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:28:40,210 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:29:28,724 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:29:28,728 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:29:31,650 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:29:31,654 DEBUG (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:29:36,349 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:29:36,353 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:29:39,315 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'food' LIMIT 21; args=('food',); alias=default
+2022-06-21 22:30:15,877 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:30:15,882 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:30:18,820 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'food' LIMIT 21; args=('food',); alias=default
+2022-06-21 22:30:18,823 DEBUG (0.000) INSERT INTO "items" ("name", "category_id", "image_url") SELECT 'item1', 1, 'https://www.geeksforgeeks.org/' RETURNING "items"."id"; args=('item1', 1, 'https://www.geeksforgeeks.org/'); alias=default
+2022-06-21 22:31:18,550 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:31:18,555 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:31:23,956 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'food' LIMIT 21; args=('food',); alias=default
+2022-06-21 22:31:23,963 DEBUG (0.000) INSERT INTO "items" ("name", "category_id", "image_url") SELECT 'item1', 1, 'https://www.geeksforgeeks.org/' RETURNING "items"."id"; args=('item1', 1, 'https://www.geeksforgeeks.org/'); alias=default
+2022-06-21 22:31:39,850 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:31:39.841695' AND "django_session"."session_key" = 'zlhm9t37ksky40wxqxgox2r7rgz8dfdj') LIMIT 21; args=('2022-06-21 13:31:39.841695', 'zlhm9t37ksky40wxqxgox2r7rgz8dfdj'); alias=default
+2022-06-21 22:31:46,762 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'david' LIMIT 21; args=('david',); alias=default
+2022-06-21 22:31:46,981 DEBUG (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa' LIMIT 1; args=('v3etyufr98y69qpnhramqje0pzwzh5aa',); alias=default
+2022-06-21 22:31:46,982 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-21 22:31:46,985 DEBUG (0.000) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 'v3etyufr98y69qpnhramqje0pzwzh5aa', 'e30:1o3dys:fkKqMrikc1B2XRP_5GwpF7i6IRAr_Xjg9zD48EFZULU', '2022-07-05 13:31:46.982026'; args=('v3etyufr98y69qpnhramqje0pzwzh5aa', 'e30:1o3dys:fkKqMrikc1B2XRP_5GwpF7i6IRAr_Xjg9zD48EFZULU', '2022-07-05 13:31:46.982026'); alias=default
+2022-06-21 22:31:47,003 DEBUG (0.016) UPDATE "auth_user" SET "last_login" = '2022-06-21 13:31:46.992021' WHERE "auth_user"."id" = 1; args=('2022-06-21 13:31:46.992021', 1); alias=default
+2022-06-21 22:31:47,005 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-21 22:31:47,008 DEBUG (0.000) UPDATE "django_session" SET "session_data" = '.eJxVjDsOwjAQBe_iGln-r0NJnzNY67WDA8iW4qRC3J1ESgHtzLz3ZgG3tYSt5yXMiV2ZZJdfFpGeuR4iPbDeG6dW12WO_Ej4aTsfW8qv29n-HRTsZV9PGV0k74CksMmgMlYrQJg0CEVpp2IAo2UENDkK4Y23zikiGJzNWrHPF9gbNwY:1o3dyt:O_BtZsO9-tFD9bIVd4HlYqZHrXSHhhvf-J5qqmBD3VI', "expire_date" = '2022-07-05 13:31:47.005024' WHERE "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa'; args=('.eJxVjDsOwjAQBe_iGln-r0NJnzNY67WDA8iW4qRC3J1ESgHtzLz3ZgG3tYSt5yXMiV2ZZJdfFpGeuR4iPbDeG6dW12WO_Ej4aTsfW8qv29n-HRTsZV9PGV0k74CksMmgMlYrQJg0CEVpp2IAo2UENDkK4Y23zikiGJzNWrHPF9gbNwY:1o3dyt:O_BtZsO9-tFD9bIVd4HlYqZHrXSHhhvf-J5qqmBD3VI', '2022-07-05 13:31:47.005024', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:31:47,027 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:31:47.021021' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:31:47.021021', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:31:47,030 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:31:47,052 DEBUG (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,); alias=default
+2022-06-21 22:31:50,407 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:31:50.404706' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:31:50.404706', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:31:50,409 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:31:50,416 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-21 22:31:50,418 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-21 22:31:50,420 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" ORDER BY "items"."id" DESC; args=(); alias=default
+2022-06-21 22:31:50,556 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:31:50.553704' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:31:50.553704', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:31:50,559 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:31:51,884 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:31:51.881454' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:31:51.881454', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:31:51,886 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:31:51,889 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-21 22:31:51,891 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 6 LIMIT 21; args=(6,); alias=default
+2022-06-21 22:31:51,896 DEBUG (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'item' AND "django_content_type"."model" = 'item') LIMIT 21; args=('item', 'item'); alias=default
+2022-06-21 22:31:51,938 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-21 22:31:51,998 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:31:51.995455' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:31:51.995455', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:31:52,000 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:33:21,226 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:33:21,231 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:34:02,815 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:02.810648' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:02.810648', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:07,659 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:07,663 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-21 22:34:07,666 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 6 LIMIT 21; args=(6,); alias=default
+2022-06-21 22:34:07,669 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:07,721 DEBUG (0.000) SELECT (1) AS "a" FROM "categories" WHERE "categories"."id" = 1 LIMIT 1; args=(1,); alias=default
+2022-06-21 22:34:07,727 DEBUG (0.000) UPDATE "items" SET "name" = 'item1', "category_id" = 1, "image_url" = 'https://www.geeksforgeeks.org/1' WHERE "items"."id" = 6; args=('item1', 1, 'https://www.geeksforgeeks.org/1', 6); alias=default
+2022-06-21 22:34:07,729 DEBUG (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'item' AND "django_content_type"."model" = 'item') LIMIT 21; args=('item', 'item'); alias=default
+2022-06-21 22:34:07,731 DEBUG (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") SELECT '2022-06-21 13:34:07.730694', 1, 8, '6', 'Item object (6)', 2, '[{"changed": {"fields": ["Image url"]}}]' RETURNING "django_admin_log"."id"; args=('2022-06-21 13:34:07.730694', 1, 8, '6', 'Item object (6)', 2, '[{"changed": {"fields": ["Image url"]}}]'); alias=default
+2022-06-21 22:34:07,788 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:07.781693' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:07.781693', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:07,790 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:07,792 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-21 22:34:07,793 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-21 22:34:07,796 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" ORDER BY "items"."id" DESC; args=(); alias=default
+2022-06-21 22:34:07,904 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:07.901693' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:07.901693', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:07,908 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:14,635 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:14.631303' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:14.631303', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:14,638 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:14,641 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-21 22:34:14,645 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 6 LIMIT 21; args=(6,); alias=default
+2022-06-21 22:34:14,693 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-21 22:34:14,741 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:14.736304' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:14.736304', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:14,744 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:26,233 DEBUG (0.015) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:26.230915' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:26.230915', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:26,235 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:26,241 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-21 22:34:26,243 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-21 22:34:26,248 DEBUG (0.016) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" ORDER BY "items"."id" DESC; args=(); alias=default
+2022-06-21 22:34:26,336 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:26.333912' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:26.333912', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:26,339 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:27,260 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:27.257180' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:27.257180', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:27,264 DEBUG (0.015) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:27,270 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "orders"; args=(); alias=default
+2022-06-21 22:34:27,271 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "orders"; args=(); alias=default
+2022-06-21 22:34:27,274 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" ORDER BY "orders"."id" DESC; args=(); alias=default
+2022-06-21 22:34:27,380 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:27.377219' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:27.377219', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:27,383 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:28,386 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:28.382508' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:28.382508', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:28,388 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:28,392 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-21 22:34:28,396 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-21 22:34:28,399 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" ORDER BY "items"."id" DESC; args=(); alias=default
+2022-06-21 22:34:28,517 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:28.514503' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:28.514503', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:28,520 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:29,557 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:29.554136' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:29.554136', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:29,559 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:29,564 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "item_orders"; args=(); alias=default
+2022-06-21 22:34:29,565 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "item_orders"; args=(); alias=default
+2022-06-21 22:34:29,571 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" ORDER BY "item_orders"."id" DESC; args=(); alias=default
+2022-06-21 22:34:29,664 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:29.662173' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:29.662173', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:29,666 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:30,605 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:30.603452' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:30.603452', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:30,608 DEBUG (0.015) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:34:30,610 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "categories"; args=(); alias=default
+2022-06-21 22:34:30,611 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "categories"; args=(); alias=default
+2022-06-21 22:34:30,615 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" ORDER BY "categories"."id" DESC; args=(); alias=default
+2022-06-21 22:34:30,732 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-21 13:34:30.728430' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-21 13:34:30.728430', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-21 22:34:30,735 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 22:47:36,152 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:47:36,155 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:47:45,445 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:47:45,449 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 22:54:39,258 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 22:54:39,264 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:00:15,833 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:00:15,837 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:01:22,983 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:01:22,990 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:01:33,995 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:01:34,031 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:02:08,835 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:02:08,840 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:04:23,411 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:04:23,416 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:04:32,170 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:04:32,175 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:04:49,719 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:04:49,724 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:05:03,343 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:05:03,348 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:05:27,983 DEBUG (0.015) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:05:27,989 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:05:58,119 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:06:08,157 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:06:08,163 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:06:09,872 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:06:09,874 DEBUG (0.016) INSERT INTO "items" ("name", "category_id", "image_url") SELECT 'item2', 1, 'https://www.geeksforgeeks.org/' RETURNING "items"."id"; args=('item2', 1, 'https://www.geeksforgeeks.org/'); alias=default
+2022-06-21 23:11:27,504 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE "orders"."order_date" BETWEEN '2022-06-14 14:11:27.495010' AND '2022-06-21 14:11:27.495010' LIMIT 1; args=('2022-06-14 14:11:27.495010', '2022-06-21 14:11:27.495010'); alias=default
+2022-06-21 23:11:27,506 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE "orders"."order_date" BETWEEN '2022-06-14 14:11:27.495010' AND '2022-06-21 14:11:27.495010'; args=('2022-06-14 14:11:27.495010', '2022-06-21 14:11:27.495010'); alias=default
+2022-06-21 23:11:27,513 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:11:27,516 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" INNER JOIN "item_orders" ON ("items"."id" = "item_orders"."item_id") WHERE "item_orders"."order_id" = 1; args=(1,); alias=default
+2022-06-21 23:11:27,518 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:11:27,519 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:11:27,521 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" INNER JOIN "item_orders" ON ("items"."id" = "item_orders"."item_id") WHERE "item_orders"."order_id" = 2; args=(2,); alias=default
+2022-06-21 23:11:27,525 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:11:27,527 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:11:27,528 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" INNER JOIN "item_orders" ON ("items"."id" = "item_orders"."item_id") WHERE "item_orders"."order_id" = 1; args=(1,); alias=default
+2022-06-21 23:11:27,530 DEBUG (0.016) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:11:27,531 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:11:27,533 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" INNER JOIN "item_orders" ON ("items"."id" = "item_orders"."item_id") WHERE "item_orders"."order_id" = 2; args=(2,); alias=default
+2022-06-21 23:11:27,535 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:14:23,155 DEBUG (0.016) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:14:23,160 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:14:25,432 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE "orders"."order_date" BETWEEN '2022-06-14 14:14:25.427011' AND '2022-06-21 14:14:25.427011' LIMIT 1; args=('2022-06-14 14:14:25.427011', '2022-06-21 14:14:25.427011'); alias=default
+2022-06-21 23:14:25,433 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE "orders"."order_date" BETWEEN '2022-06-14 14:14:25.427011' AND '2022-06-21 14:14:25.427011'; args=('2022-06-14 14:14:25.427011', '2022-06-21 14:14:25.427011'); alias=default
+2022-06-21 23:14:25,435 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:14:35,547 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:14:35,552 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:14:36,987 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE "orders"."order_date" BETWEEN '2022-06-14 14:14:36.985236' AND '2022-06-21 14:14:36.985236' LIMIT 1; args=('2022-06-14 14:14:36.985236', '2022-06-21 14:14:36.985236'); alias=default
+2022-06-21 23:14:36,988 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE "orders"."order_date" BETWEEN '2022-06-14 14:14:36.985236' AND '2022-06-21 14:14:36.985236'; args=('2022-06-14 14:14:36.985236', '2022-06-21 14:14:36.985236'); alias=default
+2022-06-21 23:14:36,990 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:14:36,992 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:14:36,994 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:14:36,997 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:14:36,998 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:14:36,999 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:14:37,000 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:14:37,002 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:24:56,835 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE "orders"."order_date" BETWEEN '2022-06-14 14:24:56.832688' AND '2022-06-21 14:24:56.832688' LIMIT 1; args=('2022-06-14 14:24:56.832688', '2022-06-21 14:24:56.832688'); alias=default
+2022-06-21 23:24:56,836 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE "orders"."order_date" BETWEEN '2022-06-14 14:24:56.832688' AND '2022-06-21 14:24:56.832688'; args=('2022-06-14 14:24:56.832688', '2022-06-21 14:24:56.832688'); alias=default
+2022-06-21 23:24:56,838 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:24:56,841 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:24:56,843 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:24:56,844 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:24:56,846 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:24:56,847 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:24:56,850 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:24:56,851 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:25:03,369 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE "orders"."order_date" BETWEEN '2022-06-14 14:25:03.366385' AND '2022-06-21 14:25:03.366385' LIMIT 1; args=('2022-06-14 14:25:03.366385', '2022-06-21 14:25:03.366385'); alias=default
+2022-06-21 23:25:03,370 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE "orders"."order_date" BETWEEN '2022-06-14 14:25:03.366385' AND '2022-06-21 14:25:03.366385'; args=('2022-06-14 14:25:03.366385', '2022-06-21 14:25:03.366385'); alias=default
+2022-06-21 23:25:03,372 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:25:03,373 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:25:03,374 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:25:03,375 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:25:03,376 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:25:03,377 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:25:03,378 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:25:03,379 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:25:17,585 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:25:17,591 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:25:20,655 DEBUG (0.016) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:25:20,660 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:25:23,491 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-14 14:25:23.484476' AND '2022-06-21 14:25:23.484476' AND "item_orders"."order_id" = 1) LIMIT 1; args=('2022-06-14 14:25:23.484476', '2022-06-21 14:25:23.484476', 1); alias=default
+2022-06-21 23:25:23,492 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-14 14:25:23.484476' AND '2022-06-21 14:25:23.484476' AND "item_orders"."order_id" = 1); args=('2022-06-14 14:25:23.484476', '2022-06-21 14:25:23.484476', 1); alias=default
+2022-06-21 23:25:23,494 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:25:23,496 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:25:23,498 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:25:23,499 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:29:03,036 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-21 23:29:03,041 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-21 23:29:05,916 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-14 14:29:05.910990' AND '2022-06-21 14:29:05.910990' AND "item_orders"."order_id" = 1) LIMIT 1; args=('2022-06-14 14:29:05.910990', '2022-06-21 14:29:05.910990', 1); alias=default
+2022-06-21 23:29:05,917 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-14 14:29:05.910990' AND '2022-06-21 14:29:05.910990' AND "item_orders"."order_id" = 1); args=('2022-06-14 14:29:05.910990', '2022-06-21 14:29:05.910990', 1); alias=default
+2022-06-21 23:29:05,919 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:29:05,921 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:29:05,922 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-21 23:29:05,923 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-21 23:42:19,140 DEBUG (0.015) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" LIMIT 21; args=(); alias=default
+2022-06-21 23:42:49,590 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items"; args=(); alias=default
+2022-06-22 13:50:40,723 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-22 13:50:40,731 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-22 13:50:49,487 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'food' LIMIT 21; args=('food',); alias=default
+2022-06-22 13:50:49,492 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (1); args=(1,); alias=default
+2022-06-22 13:52:28,040 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 13:52:28,043 DEBUG (0.000) INSERT INTO "items" ("name", "category_id", "image_url") SELECT 'item3', 1, 'https://www.image.com/' RETURNING "items"."id"; args=('item3', 1, 'https://www.image.com/'); alias=default
+2022-06-22 13:56:12,713 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'food' LIMIT 21; args=('food',); alias=default
+2022-06-22 13:56:12,716 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (1); args=(1,); alias=default
+2022-06-22 13:56:23,321 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'appliance' LIMIT 21; args=('appliance',); alias=default
+2022-06-22 13:56:23,323 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (2); args=(2,); alias=default
+2022-06-22 16:18:12,255 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-22 16:18:12,262 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-22 16:18:29,260 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-22 16:18:29,264 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-22 16:18:33,998 DEBUG (0.016) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'appliance' LIMIT 21; args=('appliance',); alias=default
+2022-06-22 16:18:34,002 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (2); args=(2,); alias=default
+2022-06-22 16:19:04,867 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-22 16:19:04,871 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-22 16:19:05,302 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'appliance' LIMIT 21; args=('appliance',); alias=default
+2022-06-22 16:19:05,304 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (2); args=(2,); alias=default
+2022-06-22 16:22:40,150 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:22:40.145568' AND '2022-06-22 07:22:40.145568' AND "item_orders"."order_id" = 1) LIMIT 1; args=('2022-06-15 07:22:40.145568', '2022-06-22 07:22:40.145568', 1); alias=default
+2022-06-22 16:22:40,153 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:22:40.145568' AND '2022-06-22 07:22:40.145568' AND "item_orders"."order_id" = 1); args=('2022-06-15 07:22:40.145568', '2022-06-22 07:22:40.145568', 1); alias=default
+2022-06-22 16:22:40,155 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:22:40,162 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:22:40,164 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:22:40,167 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-22 16:27:00,485 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:27:00.482009' AND '2022-06-22 07:27:00.482009' AND "item_orders"."order_id" = 1) LIMIT 1; args=('2022-06-15 07:27:00.482009', '2022-06-22 07:27:00.482009', 1); alias=default
+2022-06-22 16:27:00,487 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:27:00.482009' AND '2022-06-22 07:27:00.482009' AND "item_orders"."order_id" = 1); args=('2022-06-15 07:27:00.482009', '2022-06-22 07:27:00.482009', 1); alias=default
+2022-06-22 16:27:00,491 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:27:00,493 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:27:00,494 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:27:00,495 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-22 16:33:48,868 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-22 16:33:48,874 DEBUG (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-22 16:34:17,433 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-22 16:34:17,439 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-22 16:34:20,899 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:34:20.890721' AND '2022-06-22 07:34:20.890721' AND "item_orders"."order_id" = 1) LIMIT 1; args=('2022-06-15 07:34:20.890721', '2022-06-22 07:34:20.890721', 1); alias=default
+2022-06-22 16:34:20,901 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:34:20.890721' AND '2022-06-22 07:34:20.890721' AND "item_orders"."order_id" = 1); args=('2022-06-15 07:34:20.890721', '2022-06-22 07:34:20.890721', 1); alias=default
+2022-06-22 16:34:20,904 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:34:20,907 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:34:20,909 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:34:20,912 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-22 16:37:51,068 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:37:51.063910' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:37:51.063910', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:37:51,073 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:37:51,129 DEBUG (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,); alias=default
+2022-06-22 16:37:51,794 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:37:51.791032' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:37:51.791032', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:37:51,796 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:37:51,821 DEBUG (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,); alias=default
+2022-06-22 16:37:56,111 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:37:56.108159' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:37:56.108159', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:37:56,113 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:37:56,117 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-22 16:37:56,118 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-22 16:37:56,123 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" ORDER BY "items"."id" DESC; args=(); alias=default
+2022-06-22 16:37:56,232 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:37:56.224158' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:37:56.224158', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:37:56,238 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:37:57,688 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:37:57.686719' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:37:57.686719', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:37:57,690 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:37:57,696 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-22 16:37:57,700 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-22 16:37:57,705 DEBUG (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'item' AND "django_content_type"."model" = 'item') LIMIT 21; args=('item', 'item'); alias=default
+2022-06-22 16:37:57,745 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-22 16:37:57,805 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:37:57.802712' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:37:57.802712', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:37:57,807 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:17,232 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:38:17.229560' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:38:17.229560', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:38:17,235 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:17,237 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-22 16:38:17,238 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-22 16:38:17,241 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:17,294 DEBUG (0.000) SELECT (1) AS "a" FROM "categories" WHERE "categories"."id" = 1 LIMIT 1; args=(1,); alias=default
+2022-06-22 16:38:17,333 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-22 16:38:17,402 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:38:17.399540' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:38:17.399540', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:38:17,405 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:30,289 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:38:30.285222' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:38:30.285222', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:38:30,292 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:30,295 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-22 16:38:30,300 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-22 16:38:30,305 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:30,307 DEBUG (0.000) SELECT (1) AS "a" FROM "categories" WHERE "categories"."id" = 1 LIMIT 1; args=(1,); alias=default
+2022-06-22 16:38:30,310 DEBUG (0.000) UPDATE "items" SET "name" = 'hamburger', "category_id" = 1, "image_url" = 'https://www.image.com/' WHERE "items"."id" = 2; args=('hamburger', 1, 'https://www.image.com/', 2); alias=default
+2022-06-22 16:38:30,314 DEBUG (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") SELECT '2022-06-22 07:38:30.311223', 1, 8, '2', 'Item object (2)', 2, '[{"changed": {"fields": ["Name", "Image url"]}}]' RETURNING "django_admin_log"."id"; args=('2022-06-22 07:38:30.311223', 1, 8, '2', 'Item object (2)', 2, '[{"changed": {"fields": ["Name", "Image url"]}}]'); alias=default
+2022-06-22 16:38:30,349 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:38:30.325221' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:38:30.325221', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:38:30,351 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:30,354 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-22 16:38:30,355 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "items"; args=(); alias=default
+2022-06-22 16:38:30,357 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" ORDER BY "items"."id" DESC; args=(); alias=default
+2022-06-22 16:38:30,460 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-22 07:38:30.457224' AND "django_session"."session_key" = 'v3etyufr98y69qpnhramqje0pzwzh5aa') LIMIT 21; args=('2022-06-22 07:38:30.457224', 'v3etyufr98y69qpnhramqje0pzwzh5aa'); alias=default
+2022-06-22 16:38:30,462 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:34,812 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:38:34.809757' AND '2022-06-22 07:38:34.809757' AND "item_orders"."order_id" = 1) LIMIT 1; args=('2022-06-15 07:38:34.809757', '2022-06-22 07:38:34.809757', 1); alias=default
+2022-06-22 16:38:34,813 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:38:34.809757' AND '2022-06-22 07:38:34.809757' AND "item_orders"."order_id" = 1); args=('2022-06-15 07:38:34.809757', '2022-06-22 07:38:34.809757', 1); alias=default
+2022-06-22 16:38:34,815 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:34,817 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:34,818 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:38:34,820 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-22 16:41:29,641 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-22 16:41:29,647 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-22 16:41:45,266 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:41:45.261568' AND '2022-06-22 07:41:45.261568' AND "item_orders"."order_id" = 1) LIMIT 1; args=('2022-06-15 07:41:45.261568', '2022-06-22 07:41:45.261568', 1); alias=default
+2022-06-22 16:41:45,268 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:41:45.261568' AND '2022-06-22 07:41:45.261568' AND "item_orders"."order_id" = 1); args=('2022-06-15 07:41:45.261568', '2022-06-22 07:41:45.261568', 1); alias=default
+2022-06-22 16:41:45,270 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:41:45,272 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:41:45,273 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:41:45,274 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-22 16:41:53,841 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."name" = 'appliance' LIMIT 21; args=('appliance',); alias=default
+2022-06-22 16:41:53,843 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."category_id" IN (2); args=(2,); alias=default
+2022-06-22 16:41:58,024 DEBUG (0.000) SELECT (1) AS "a" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:41:58.020613' AND '2022-06-22 07:41:58.020613' AND "item_orders"."order_id" = 1) LIMIT 1; args=('2022-06-15 07:41:58.020613', '2022-06-22 07:41:58.020613', 1); alias=default
+2022-06-22 16:41:58,026 DEBUG (0.000) SELECT "item_orders"."id", "item_orders"."order_id", "item_orders"."item_id", "item_orders"."item_count" FROM "item_orders" INNER JOIN "orders" ON ("item_orders"."order_id" = "orders"."id") WHERE ("orders"."order_date" BETWEEN '2022-06-15 07:41:58.020613' AND '2022-06-22 07:41:58.020613' AND "item_orders"."order_id" = 1); args=('2022-06-15 07:41:58.020613', '2022-06-22 07:41:58.020613', 1); alias=default
+2022-06-22 16:41:58,029 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:41:58,032 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:41:58,037 DEBUG (0.000) SELECT "orders"."id", "orders"."delivery_address", "orders"."order_date" FROM "orders" WHERE "orders"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:41:58,038 DEBUG (0.000) SELECT "items"."id", "items"."name", "items"."category_id", "items"."image_url" FROM "items" WHERE "items"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-22 16:42:09,791 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-22 16:42:09,794 DEBUG (0.000) INSERT INTO "items" ("name", "category_id", "image_url") SELECT 'item4', 1, 'https://www.image.com/' RETURNING "items"."id"; args=('item4', 1, 'https://www.image.com/'); alias=default
